@@ -24,7 +24,7 @@
 			<div class="col-md-10">
 				<ul class="phones">
 					<li ng-repeat="phone in phones | filter:query | orderBy:orderProp " class="thumbnail">
-					<a href="#/phones/{{phone.id}}" class="thumb"><img src="{{phone.imageUrl}}"></a>
+					<a href="#/phones/{{phone.id}}" class="thumb"><img ng-src="{{phone.imageUrl}}"></a>
 					<a href="#/phones/{{phone.id}}">{{phone.name}}</a>
 						{{phone.name}}
 						<p>{{phone.snippet}} </p>
