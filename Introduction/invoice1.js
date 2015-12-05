@@ -18,4 +18,7 @@ angular.module('invoice1',[])
 		this.pay = function pay() {
 			window.alert("Thanks!");
 		}
+		this.greet = function() {
+			console.log("Hello this was added!");
+		}
 	})
